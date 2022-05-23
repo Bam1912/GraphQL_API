@@ -1,0 +1,6 @@
+php_flag zlib.output_compression Off
+php_flag display_startup_errors off
+php_flag display_errors off
+php_flag html_errors off
+php_value memory_limit 128M
+

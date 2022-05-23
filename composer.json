@@ -1,0 +1,19 @@
+{
+    "name": "berezin/api",
+    "authors": [
+        {
+            "name": "BAM",
+            "email": "BAM@voron.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Berezin\\Api\\": "src/"
+        }
+    },
+    "require": {
+        "PHP": ">=7.1",
+        "webonyx/graphql-php": "^14.11"
+    }
+}
